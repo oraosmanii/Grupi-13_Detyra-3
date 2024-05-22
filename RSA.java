@@ -33,8 +33,4 @@ public class RSA {
     public static String toBase64(byte[] data) {
         return Base64.getEncoder().encodeToString(data);
     }
-
-    public static byte[] fromBase64(String data) {
-        return Base64.getDecoder().decode(data);
-    }
 }
