@@ -45,7 +45,7 @@ Klasa **Server** është përgjegjëse për menaxhimin e lidhjeve të shumta të
 Vlen të përmendet se Serveri ruan çelësat publik të klientëve, të shoqëruar me nga një ID, përmes nje map-i.
 
 
-### File Klient
+### Klienti
 
 - Metoda main(): E inicializon klientin, e konekton atë në server, e mundëson shkëmbimin e çelësave publik, dhe dërgimin dhe marrjen e mesazheve të enkriptuara. Ajo fillon duke vendosur një lidhje me serverin në "localhost" në portin 12345 duke përdorur një Socket. Pastaj krijon objektet ObjectOutputStream dhe ObjectInputStream për të dërguar dhe marrë të dhëna, përkatësisht, dhe përdor një Scanner për të lexuar inputet e përdoruesit nga tastiera. Një instancë e klasës RSA krijohet, që i gjeneron një çift të ri çelësash RSA (çelës publik dhe privat). Klienti merr çelësin publik të serverit dhe dërgon çelësin e vet publik te serveri, duke mundësuar komunikim të sigurt. Krijohet një thread i ri, i cili pret për mesazhe të enkriptuara nga serveri, të cilat dekriptohen përmes çelësit privat të klientit, dhe shfaqen në console. Threadi kryesor futet në një loop, ku e pyet përdoruesin nëse dëshiron të dërgojë një mesazh. Nëse përdoruesi zgjedh të dërgojë një mesazh, ai lexon mesazhin nga tastiera, e enkripton atë duke përdorur çelësin publik të serverit dhe e dërgon mesazhin e enkriptuar te serveri. 
 
