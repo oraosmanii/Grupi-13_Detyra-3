@@ -57,10 +57,13 @@ Në këtë projekt mund të kemi shumë shembuj ekzekutimi, varësisht se sa kli
 Gjithesi shembulli më i mirë për të parë funksionalitetin e projektit është nëse kemi dy klientë të kyçur në server, ku njëri pranon dhe tjetri dërgon.
 
 - Console e Klientit 1:
+
   ![KLienti1](Client1Output.png)
 
 - Console e Klientit 2:
+
   ![KLienti2](Client2Output.png)
 
 - Console e Serverit:
+
   ![Serveri](ServerOutput.png)
