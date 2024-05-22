@@ -21,15 +21,15 @@ public class Client1 {
 
             RSA rsa = new RSA();
 
-            // Receive server's public key
+
             PublicKey serverPublicKey = (PublicKey) clientIn.readObject();
-            // Send client's public key to server
+
             clientOut.writeObject(rsa.getPublicKey());
 
             System.out.println(ANSI_GREEN + "Connected to server. Exchanging public keys..." + ANSI_RESET);
             System.out.println(ANSI_GREEN + "Public key exchange complete. You can now send secure messages." + ANSI_RESET);
 
-            // Create a thread to listen for messages from the server
+            
             new Thread(() -> {
                 try {
                     while (true) {
