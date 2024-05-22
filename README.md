@@ -53,7 +53,7 @@ Vlen të përmendet se Serveri ruan çelësat publik të klientëve, të shoqër
 
 ## Shembull ekzekutimi
 
-Në këtë projekt mund të kemi shumë shembuj ekzekutimi, varësisht se sa klientë kyçen, po ashtu në çdo connection kush është duke dërguar dhe kush duke pranuar.
+Në këtë projekt mund të kemi shumë shembuj ekzekutimi, varësisht se sa klientë kyçen, po ashtu në çdo connection kush është duke dërguar dhe kush duke pranuar. Po ashtu ne kemi shtuar stilizim me ngjyra në console, për qartësi më të mirë.
 Gjithesi shembulli më i mirë për të parë funksionalitetin e projektit është nëse kemi dy klientë të kyçur në server, ku njëri pranon dhe tjetri dërgon.
 
 - Console e Klientit 1:
