@@ -1,7 +1,7 @@
 # Grupi-13_Detyra-3
 
 
-## Përshkrim i shkurtër se çfarë është RSA
+## Çfarë është RSA
 
 - RSA (ose ndryshe njohur Rivest-Shamir-Adelman) është një prej sistemeve të para të enkriptimit që kanë përdorur çelës publik. Cipheri bazohet në parimet matematike të faktorizimit të numrave të mëdhenj prim.
 - RSA funksionon duke përdorur dy çelësa të ndryshëm: një çelës publik për enkriptim dhe një çelës privat për dekriptim.
